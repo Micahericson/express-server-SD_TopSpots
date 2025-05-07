@@ -28,5 +28,5 @@ describe("server module", function() {
         expect(res.body).to.deep.equal(topSpotsData);
         done();
     })
-	});
+	}); 
 });
